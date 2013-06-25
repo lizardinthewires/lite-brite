@@ -1,0 +1,152 @@
+/* Page Layout */
+body {
+	background: url('../LiteBrite/images/bg.png'); /* from http://subtlepatterns.com/lined-paper-2/ */
+	color: #444;
+	text-align: center;
+	font-family: 'Loved by the King', cursive;
+}
+
+#title h1{
+	text-align: center;
+	font-size: 48px;
+}
+
+/* Board */
+table {
+	background: url('../LiteBrite/images/boardbg.jpg');
+	float: left;
+	margin: 20px 30px;
+	border: 50px solid #f5f5d5;
+	border-radius: 25px;
+}
+
+td {
+	border-radius: 25px;
+	border: 1px solid #222;
+}
+	
+
+.on {
+	border: 1px solid rgba(255, 188, 83, .02);
+	background: rgba(206, 168, 84, .03);
+}
+
+
+/* Colors on */
+
+.hover { 
+	background-color: rgba(194, 180, 101, 0.3) !important; 
+}
+
+.red { 
+	background: #aa3a38;
+	background: rgba(170, 58, 56, .7); 
+}
+.yellow { 
+	background: yellow;
+	background: rgba(255, 255, 0, .7); 
+	
+}
+.blue { 
+	background: blue;
+	background: rgba(0, 0, 255, .7); 
+	
+}
+
+.green {
+	background: green;
+	background: rgba(34, 224, 27, .7);
+	
+}
+
+.purple {
+	background: purple;
+	background: rgba(105, 29, 163, .7);
+	
+}
+
+.brown {
+	background: #5c3019;
+	background: rgba(92, 48, 25, .7);
+}
+
+.white {
+	background: #fff;
+	background: rgba(255, 255, 255, .7);
+}
+
+.grey {
+	background: #666;
+	background: rgba(102, 102, 102, .7);
+}
+
+/* Color Swatches */
+
+#colorPicker {
+	width: 155px;
+	float: right;
+	margin: 20px 50px;
+	background: #f5f5d5;
+	padding: 20px;
+	border-radius: 25px;
+
+}
+
+.swatch {
+	height: 75px;
+	width: 75px;
+	border-radius: 25px;
+}
+
+
+/* Tools */
+
+#tools {
+	width: 155px;
+	margin: 20px 50px;
+	float: right;
+	margin: 20px 50px;
+	background: #f5f5d5;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+
+.remove {
+	background: url('../LiteBrite/images/trashcan.png') no-repeat center;
+	/* Trash Can designed by Chris Lee from The Noun Project ttp://thenounproject.com/noun/trash-can/#icon-No3199 */
+}
+
+.remove-sign {
+	background: url('../LiteBrite/images/remove.png') no-repeat center;
+}
+
+#current {
+	height: 75px;
+	width: 75px;
+	opacity: 1 !important;
+	border-radius: 25px;
+}
+
+button {
+	font-family: 'Loved by the King', cursive;
+	font-size: 20px;
+	color: #333;
+	margin: 10px;
+}
+
+.clear {
+
+	background: #ba8b3e;
+	border: 2px solid rgb(90, 43, 0);
+	padding: 10px;
+	border-radius: 25px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
